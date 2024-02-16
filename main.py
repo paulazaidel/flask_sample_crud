@@ -37,4 +37,20 @@ def create():
     return redirect('/')
 
 
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
+
+@app.route('/authenticate', methods=['POST'])
+def authenticate():
+    username = request.form['username']
+    password = request.form['password']
+
+    if username == 'admin' and password == 'admin':
+        return redirect('/')
+
+    return redirect('/login')
+
+
 app.run(port=8080, debug=True)
