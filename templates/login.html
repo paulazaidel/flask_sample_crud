@@ -9,7 +9,17 @@
   <body>
     <div class="container">
         <h1>Login</h1>
-        <form method="POST" action="/authenticate">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul id="messages" class="list-unstyled">
+                {% for message in messages %}
+                    <li class="alert alert-success">{{ message }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+        <form method="POST" action="{{ url_for('authenticate') }}">
+            <input type="hidden" name="redirect_page" value="{{ redirect_page }}">
             <p><label>Username:</label> <input class="form-control" type="text" name="username" required></p>
             <p><label>Password:</label> <input class="form-control" type="password" name="password" required></p>
             <p><button class="btn btn-primary" type="submit">Login</button></p>
