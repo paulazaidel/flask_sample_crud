@@ -18,7 +18,7 @@
                 </ul>
             {% endif %}
         {% endwith %}
-        <form method="POST" action="{{ url_for('authenticate') }}">
+        <form method="POST" action="{{ url_for('auth.authenticate') }}">
             <input type="hidden" name="redirect_page" value="{{ redirect_page }}">
             <p><label>Username:</label> <input class="form-control" type="text" name="username" required></p>
             <p><label>Password:</label> <input class="form-control" type="password" name="password" required></p>
