@@ -1,10 +1,11 @@
-from flask import render_template, request, redirect, session, flash, url_for
+from flask import render_template, request, redirect, session, url_for
 
-from db import games
+from config import db
 from models.game import Game
 
 
 def index():
+    games = Game.query.all()
     return render_template('list.html', title='Games', games=games)
 
 
@@ -19,6 +20,8 @@ def create():
     category = request.form['category']
     console = request.form['console']
 
-    games.append(Game(name, category, console))
+    game = Game(name, category, console)
+    db.session.add(game)
+    db.session.commit()
 
     return redirect(url_for('game.index'))
