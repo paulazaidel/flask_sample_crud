@@ -3,6 +3,7 @@ from flask import Flask
 from auth.routes import blueprint as auth_bp
 from game.routes import blueprint as game_bp
 from config import SECRET_KEY, DEBUG, db
+from settings.api_settings import config_api_v1, api_bp
 
 app = Flask(__name__)
 app.secret_key = SECRET_KEY
@@ -12,7 +13,9 @@ db.init_app(app)
 
 app.register_blueprint(auth_bp)
 app.register_blueprint(game_bp)
+app.register_blueprint(api_bp)
 
+config_api_v1(app)
 
 if __name__ == '__main__':
     with app.app_context():
