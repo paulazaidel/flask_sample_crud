@@ -1,8 +1,10 @@
-from flask_restx import Resource, fields, Namespace
+from flask_restx import Resource, fields
 
-api = Namespace('categories', description='Operations related to categories')
+from extensions import api
 
-game_serializer = api.model('Game', {
+ns_games = api.namespace('games', description='Operations related to categories')
+
+game_serializer = ns_games.model('Game', {
     'id': fields.Integer(readonly=True),
     'name': fields.String(size=50, required=True, description='The game name'),
     'category': fields.String(size=40, required=True, description='The game category'),
@@ -10,7 +12,7 @@ game_serializer = api.model('Game', {
 })
 
 
-@api.route('/')
+@ns_games.route('/')
 class GameApi(Resource):
     @api.marshal_list_with(game_serializer)
     def get(self):
@@ -22,7 +24,7 @@ class GameApi(Resource):
         return NotImplemented
 
 
-@api.route('/<int:id>')
+@ns_games.route('/<int:id>')
 @api.response(404, 'Not found.')
 class GameItemApi(Resource):
     @api.marshal_with(game_serializer)

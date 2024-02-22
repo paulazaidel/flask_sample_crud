@@ -1,6 +1,6 @@
 from flask import render_template, request, redirect, session, url_for
 
-from config import db
+from extensions import db
 from models.game import Game
 
 

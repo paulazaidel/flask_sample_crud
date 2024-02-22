@@ -1,23 +1,33 @@
 from flask import Flask
 
+from apis.game_api import ns_games
 from auth.routes import blueprint as auth_bp
+from extensions import db, api
 from game.routes import blueprint as game_bp
-from config import SECRET_KEY, DEBUG, db
-from settings.api_settings import config_api_v1, api_bp
+from config import SECRET_KEY, DEBUG
 
 app = Flask(__name__)
-app.secret_key = SECRET_KEY
-app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///gameLibrary.db'
 
-db.init_app(app)
 
-app.register_blueprint(auth_bp)
-app.register_blueprint(game_bp)
-app.register_blueprint(api_bp)
+def initialize_app(app):
+    app.secret_key = SECRET_KEY
+    app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///gameLibrary.db'
 
-config_api_v1(app)
+    # SQLAlchemy
+    db.init_app(app)
 
-if __name__ == '__main__':
     with app.app_context():
         db.create_all()
+
+    # Blueprint
+    app.register_blueprint(auth_bp)
+    app.register_blueprint(game_bp)
+
+    # Api
+    api.init_app(app)
+    api.add_namespace(ns_games)
+
+
+if __name__ == '__main__':
+    initialize_app(app)
     app.run(port=8080, debug=DEBUG)
