@@ -5,6 +5,7 @@ from auth.routes import blueprint as auth_bp
 from extensions import db, api
 from game.routes import blueprint as game_bp
 from config import SECRET_KEY, DEBUG
+from log import logger
 
 app = Flask(__name__)
 
@@ -29,5 +30,6 @@ def initialize_app(app):
 
 
 if __name__ == '__main__':
+    logger.info('Starting Application')
     initialize_app(app)
     app.run(port=8080, debug=DEBUG)
