@@ -1,11 +1,26 @@
-from extensions import db
+from typing import List
+
+from sqlalchemy import Table, Integer, ForeignKey, Column, String
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import backref, mapped_column, Mapped, relationship
+
+from extensions import Base
+from models.console import Console
+from models.tables import game_console_association_table
 
 
-class Game(db.Model):
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    name = db.Column(db.String(50), nullable=False)
-    category = db.Column(db.String(40), nullable=False)
-    console = db.Column(db.String(20), nullable=False)
+class Game(Base):
+    __tablename__ = "games"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    name: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
+
+    category_id: Mapped[int] = mapped_column(ForeignKey("categories.id"))
+    category: Mapped["Category"] = relationship(back_populates="games")
+
+    consoles: Mapped[List["Console"]] = relationship(
+        secondary=game_console_association_table, back_populates="games"
+    )
 
     def __init__(self, name, category, console):
         self.name = name
