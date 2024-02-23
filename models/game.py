@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Any
 
 from sqlalchemy import Column, ForeignKey, Integer, String, Table
 from sqlalchemy.ext.declarative import declarative_base
@@ -21,8 +21,3 @@ class Game(Base):
     consoles: Mapped[List["Console"]] = relationship(
         secondary=game_console_association_table, back_populates="games"
     )
-
-    def __init__(self, name, category, console):
-        self.name = name
-        self.category = category
-        self.console = console

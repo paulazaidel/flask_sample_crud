@@ -3,7 +3,7 @@ from typing import List, Optional
 from sqlalchemy import String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from extensions import Base, db
+from extensions import Base
 
 
 class Category(Base):
@@ -14,7 +14,3 @@ class Category(Base):
     description: Mapped[Optional[str]] = mapped_column(String(100), nullable=True)
 
     games: Mapped[List["Game"]] = relationship(back_populates="category")
-
-    def __init__(self, name, description=None):
-        self.name = name
-        self.description = description

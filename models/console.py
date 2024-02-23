@@ -16,7 +16,3 @@ class Console(Base):
     games: Mapped[List["Console"]] = relationship(
         secondary=game_console_association_table, back_populates="consoles"
     )
-
-    def __init__(self, name, description=None):
-        self.name = name
-        self.description = description
