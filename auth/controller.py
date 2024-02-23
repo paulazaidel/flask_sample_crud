@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, session, flash, url_for
+from flask import flash, redirect, render_template, request, session, url_for
 
 
 def login():

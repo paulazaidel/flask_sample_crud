@@ -1,9 +1,9 @@
-from typing import Optional, List
+from typing import List, Optional
 
-from sqlalchemy import String, Integer
-from sqlalchemy.orm import mapped_column, Mapped, relationship
+from sqlalchemy import String
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from extensions import db, Base
+from extensions import Base, db
 
 
 class Category(Base):

@@ -1,6 +1,6 @@
 from flask import Blueprint
 
-from game.controller import index, new, create
+from game.controller import create, index, new
 
 blueprint = Blueprint("game", __name__)
 

@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, session, url_for
+from flask import redirect, render_template, request, session, url_for
 
 from extensions import db
 from models.game import Game

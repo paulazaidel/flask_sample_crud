@@ -1,9 +1,9 @@
-from typing import Optional, List
+from typing import List, Optional
 
-from sqlalchemy import Integer, String
-from sqlalchemy.orm import mapped_column, Mapped, relationship
+from sqlalchemy import String
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from extensions import db, Base
+from extensions import Base, db
 from models.tables import game_console_association_table
 
 

@@ -2,9 +2,9 @@ from flask import Flask
 
 from apis.game_api import ns_games
 from auth.routes import blueprint as auth_bp
-from extensions import db, api
+from config import DEBUG, SECRET_KEY
+from extensions import api, db
 from game.routes import blueprint as game_bp
-from config import SECRET_KEY, DEBUG
 from log import logger
 
 app = Flask(__name__)

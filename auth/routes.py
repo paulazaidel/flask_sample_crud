@@ -1,6 +1,6 @@
 from flask import Blueprint
 
-from auth.controller import login, authenticate, logout
+from auth.controller import authenticate, login, logout
 
 blueprint = Blueprint("auth", __name__)
 

@@ -1,8 +1,8 @@
 from typing import List
 
-from sqlalchemy import Table, Integer, ForeignKey, Column, String
+from sqlalchemy import Column, ForeignKey, Integer, String, Table
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import backref, mapped_column, Mapped, relationship
+from sqlalchemy.orm import Mapped, backref, mapped_column, relationship
 
 from extensions import Base
 from models.console import Console
