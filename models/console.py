@@ -13,6 +13,6 @@ class Console(Base):
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
     name: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
     description: Mapped[Optional[str]] = mapped_column(String(100), nullable=True)
-    games: Mapped[List["Console"]] = relationship(
+    games: Mapped[List["Game"]] = relationship(
         secondary=game_console_association_table, back_populates="consoles"
     )

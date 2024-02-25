@@ -5,8 +5,8 @@ from models.game import Game
 
 
 def index():
-    games = Game.query.all()
-    return render_template("list.html", title="Games", games=games)
+    # games = Game.query.all()
+    return render_template("list.html", title="Games", games=[])
 
 
 def new():

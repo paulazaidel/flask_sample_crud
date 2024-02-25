@@ -353,3 +353,537 @@ Starting Application
 127.0.0.1 - - [22/Feb/2024 21:52:20] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
 127.0.0.1 - - [22/Feb/2024 21:52:20] "GET /api/v1/swagger.json HTTP/1.1" 200 -
 127.0.0.1 - - [22/Feb/2024 21:52:20] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:09:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+127.0.0.1 - - [23/Feb/2024 08:09:23] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:09:23] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:09:23] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:09:23] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\game\\controller.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:09:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\game\\controller.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:09:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:09:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:09:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:09:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\game\\controller.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:10:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:10:02] "[36mGET /static/bootstrap.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:10:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Feb/2024 08:10:14] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:10:14] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:10:14] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:10:14] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:10:14] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:10:15] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\app.py', reloading
+ * Restarting with stat
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:11:15] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:11:15] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:11:15] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:11:15] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:11:15] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:11:15] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:11:15] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:12:21] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:12:21] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:12:21] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:12:21] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:12:21] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:12:22] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:12:22] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:12:30] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:12:30] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:12:30] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:12:30] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:12:30] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:12:30] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:12:30] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:13:20] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:13:21] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:21] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:21] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:21] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:21] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:13:21] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:13:28] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:13:28] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:28] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:28] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:28] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:28] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:13:28] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:13:47] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:13:47] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:47] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:47] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:47] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:13:47] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:13:47] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:14:45] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:14:45] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:14:45] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:14:45] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:14:45] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:14:46] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:14:46] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:15:00] "GET /api/v1categories/ HTTP/1.1" 200 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:17:01] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:17:01] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:17:01] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:17:01] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:17:01] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:17:01] "[35m[1mGET /api/v1/swagger.json HTTP/1.1[0m" 500 -
+127.0.0.1 - - [23/Feb/2024 08:17:01] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:18:24] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:18:24] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:18:24] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:18:24] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:18:24] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:18:24] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:18:24] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:18:46] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:18:46] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:18:46] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:18:46] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:18:46] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:18:46] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:18:46] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:19:05] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:19:05] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:05] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:05] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:05] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:05] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:19:05] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:19:25] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:19:25] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:25] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:25] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:25] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:26] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:19:26] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:19:50] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:19:51] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:51] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:51] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:51] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:19:51] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:19:51] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:20:04] "GET /api/v1categories/ HTTP/1.1" 200 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:20:39] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:20:40] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:20:40] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:20:40] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:20:40] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:20:40] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:20:40] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:21:13] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:21:13] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:21:13] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:21:13] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:21:13] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:21:13] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:21:13] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+ * Detected change in 'C:\\Workspace\\gamelibrary\\app.py', reloading
+ * Restarting with stat
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+127.0.0.1 - - [23/Feb/2024 08:38:30] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:38:30] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:38:30] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:38:30] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:38:30] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:38:30] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:38:30] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:38:45] "[35m[1mPOST /api/v1categories/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Workspace\\gamelibrary\\app.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+ * Detected change in 'C:\\Workspace\\gamelibrary\\app.py', reloading
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+ * Detected change in 'C:\\Workspace\\gamelibrary\\apis\\category_api.py', reloading
+ * Restarting with stat
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+Starting Application
+ * Debugger is active!
+ * Debugger PIN: 109-712-518
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [23/Feb/2024 08:44:21] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:44:21] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:44:21] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:44:21] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:44:21] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:44:22] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:44:22] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [23/Feb/2024 08:45:58] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:45:58] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:45:58] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:45:58] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:45:58] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:45:58] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:45:58] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [23/Feb/2024 08:48:29] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:48:29] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:48:29] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:48:29] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:48:29] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:48:30] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:48:30] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:48:44] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [23/Feb/2024 08:54:14] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:54:14] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:54:14] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:54:14] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:54:14] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:54:14] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:54:14] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:54:19] "[33mGET /api/v1categories/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Feb/2024 08:54:43] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:54:43] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:54:43] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:54:43] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:54:43] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:54:44] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:54:44] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:54:53] "[33mGET /api/v1categories/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Feb/2024 08:55:04] "[33mPOST /api/v1categories/ HTTP/1.1[0m" 404 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [23/Feb/2024 08:55:24] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:55:25] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:55:25] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:55:25] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:55:25] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:55:25] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:55:25] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:55:32] "[33mGET /api/v1categories/ HTTP/1.1[0m" 404 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [23/Feb/2024 08:56:28] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:56:28] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:56:28] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:56:28] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:56:28] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:56:28] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Feb/2024 08:56:28] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Feb/2024 08:56:41] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 17:55:20] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 17:55:21] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 17:55:21] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 17:55:21] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 17:55:21] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 17:55:21] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 17:55:21] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 17:55:37] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 18:05:50] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:05:50] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:05:50] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:05:50] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:05:50] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:05:50] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:05:50] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:06:00] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 18:09:54] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:09:54] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:09:54] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:09:54] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:09:54] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:09:54] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:09:54] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:10:05] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 18:10:49] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:10:49] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:10:49] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:10:49] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:10:49] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:10:49] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:10:49] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:11:00] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 18:13:12] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:13:13] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:13:13] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:13:13] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:13:13] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:13:13] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:13:13] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:13:22] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 18:14:31] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:14:31] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:14:31] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:14:31] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:14:31] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:14:31] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:14:31] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:14:42] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 18:34:44] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:34:45] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:35:06] "GET /api/v1categories/ HTTP/1.1" 200 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 18:44:43] "POST /api/v1categories/ HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:44:49] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [25/Feb/2024 18:44:58] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [25/Feb/2024 18:45:17] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [25/Feb/2024 18:45:18] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [25/Feb/2024 18:45:19] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [25/Feb/2024 18:45:20] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 18:46:21] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:46:21] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:46:21] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:46:21] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:46:21] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:46:21] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:46:21] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:46:50] "[35m[1mPOST /api/v1categories/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [25/Feb/2024 18:48:18] "POST /api/v1categories/ HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:48:35] "[35m[1mPOST /api/v1categories/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [25/Feb/2024 18:49:09] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 18:55:25] "GET /swagger HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:55:26] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:55:26] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:55:26] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:55:26] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:55:26] "GET /api/v1/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/Feb/2024 18:55:26] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [25/Feb/2024 18:55:37] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 18:56:49] "[35m[1mGET /api/v1categories/ HTTP/1.1[0m" 500 -
+Starting Application
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Feb/2024 19:09:52] "[33mGET /api/v1categories/ HTTP/1.1[0m" 404 -

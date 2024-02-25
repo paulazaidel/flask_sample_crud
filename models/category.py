@@ -13,4 +13,8 @@ class Category(Base):
     name: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
     description: Mapped[Optional[str]] = mapped_column(String(100), nullable=True)
 
-    games: Mapped[List["Game"]] = relationship(back_populates="category")
+    games: Mapped[List["Game"]] = relationship("Game", back_populates="category")
+
+    def __init__(self, name, description: None):
+        self.name = name
+        self.description = description
