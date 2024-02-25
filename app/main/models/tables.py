@@ -1,6 +1,6 @@
 from sqlalchemy import Column, ForeignKey, Table
 
-from extensions import Base
+from app.main.extensions import Base
 
 game_console_association_table = Table(
     "game_console_association",

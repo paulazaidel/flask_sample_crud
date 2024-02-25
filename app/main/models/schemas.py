@@ -1,5 +1,5 @@
 from app import marshmallow
-from models import Category
+from app.main.models import Category
 
 
 class CategorySchema(marshmallow.SQLAlchemyAutoSchema):

@@ -1,7 +1,7 @@
 from flask import redirect, render_template, request, session, url_for
 
-from extensions import db
-from models.game import Game
+from app.main.extensions import db
+from app.main.models.game import Game
 
 
 def index():

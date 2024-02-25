@@ -1,10 +1,10 @@
-from typing import List, Any
+from typing import List
 
 from sqlalchemy import ForeignKey, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from extensions import Base
-from models.tables import game_console_association_table
+from app.main.extensions import Base
+from app.main.models.tables import game_console_association_table
 
 
 class Game(Base):

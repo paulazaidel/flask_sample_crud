@@ -1,6 +1,6 @@
 from flask_restx import Resource, fields
 
-from extensions import api
+from app.main.extensions import api
 
 ns_games = api.namespace(
     "GAMES", description="Operations related to games", path="games"

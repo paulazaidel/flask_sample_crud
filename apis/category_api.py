@@ -1,8 +1,8 @@
 from flask import jsonify
 from flask_restx import Resource, fields
-from extensions import api, db_session
-from models import Category
-from models.schemas import CategorySchema
+from app.main.extensions import api, db_session
+from app.main.models import Category
+from app.main.models import CategorySchema
 
 ns = api.namespace("CATEGORIES", path="categories")
 
