@@ -1,20 +1,18 @@
-from typing import List, Optional
-
 from sqlalchemy import String
-from sqlalchemy.orm import Mapped, mapped_column, relationship
-
-from app.main.extensions import Base
 
 
-class Category(Base):
+class Category(db.Model):
     __tablename__ = "categories"
 
-    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
-    name: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
-    description: Mapped[Optional[str]] = mapped_column(String(100), nullable=True)
+    id = db.Column(primary_key=True, autoincrement=True)
+    name = db.Column(String(50), unique=True, nullable=False)
+    description = db.Column(String(100), nullable=True)
 
-    games: Mapped[List["Game"]] = relationship("Game", back_populates="category")
+    # games: Mapped[List["Game"]] = relationship("Game", back_populates="category")
 
     def __init__(self, name, description: None):
         self.name = name
         self.description = description
+
+    def __repr__(self):
+        return "<Category '{}'>".format(self.name)
