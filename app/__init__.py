@@ -4,7 +4,9 @@ from flask import Flask
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 
-from app.main import register_blueprints
+from app.database import init_sqlalchemybase
+from app.main import register_blueprints, register_namespaces
+from app.main.apis import api
 from config import config
 
 db = SQLAlchemy()
@@ -23,5 +25,8 @@ def create_app():
     migrate.init_app(app, db)
 
     register_blueprints(app)
+    register_namespaces(api)
+
+    init_sqlalchemybase()
 
     return app

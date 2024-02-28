@@ -9,9 +9,5 @@ api = Api(
     version="1.0",
     description="API Doc",
     # doc="/swagger",
-    prefix="/api/v1",
+    # prefix="/api/v1",
 )
-
-
-# api.add_namespace(ns_games)
-# api.add_namespace(ns_category)
